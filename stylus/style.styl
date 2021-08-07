@@ -461,6 +461,10 @@ ol.paragraph li
 .tit .counter
   margin-left: 1.2vmax
 
+@media only screen and (max-width: $mediaQuery500)
+  .vacancy-categories__item .counter-container
+    display: none
+
 
 // illustration
 .illustration img
@@ -902,6 +906,11 @@ header
     margin-bottom: 1vmax
     padding: 0
     width: 100%
+
+  .vacancy-categories__item,
+  .vacancy-categories__item:visited,
+  .vacancy-categories__item:focus
+    padding: 2.5vmax 6vmax
 
 
 // grid
