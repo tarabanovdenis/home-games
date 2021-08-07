@@ -796,6 +796,7 @@ header {
   border-radius: inherit;
 }
 .belt_2 .belt__bg {
+  bottom: 9vmax;
   background: #f0f2f7;
 }
 @media screen and (max-aspect-ratio: 16/11) {
@@ -899,6 +900,8 @@ header {
   }
   .vacancy-categories__column {
     margin-bottom: 1vmax;
+    padding: 0;
+    width: 100%;
   }
 }
 .grid {
@@ -945,16 +948,16 @@ header {
     margin: 0 -8.8vmax;
     display: block;
     text-align: center;
-    overflow: hidden;
+    overflow: auto;
   }
   .grid__item {
     display: inline-block;
     flex: auto;
-    width: 32%;
+    width: 36%;
     margin: 0;
   }
   .grid__item:nth-child(2) {
-    margin-left: -11vmax;
+    margin-left: 8vmax;
   }
   .grid__item_double {
     display: none;
